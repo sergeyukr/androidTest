@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" 
+   >
+
+    <TextView
+        android:id="@+id/titleNewSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="17dp"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/categoryNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleNewSelected"
+        android:text="Category"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/textNews"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_alignLeft="@+id/titleNewSelected"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:text="ghjkghjkghjkghjkghjkghjkghjkghjkghjk55555555555 55555  55555555 55555" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/dateNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dateNews"
+        android:layout_alignLeft="@+id/textNews"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:text="bxvbxcvbxcv bjcxvb xcvcxv xcvxcv vvvvvvvvvvcxvb cvbcvb vvvvvv ddddd dffffff 555555" />
+
+</RelativeLayout>

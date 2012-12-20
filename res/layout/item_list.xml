@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/titleNews"
+        android:layout_width="288dp"
+        android:layout_height="32dp"
+        android:layout_gravity="fill"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageLink"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="fill"
+        android:src="@drawable/ic_action_name" />
+    
+
+</LinearLayout>
